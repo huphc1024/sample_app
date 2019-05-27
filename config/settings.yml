@@ -11,3 +11,5 @@ port: 587
 domain: "gmail.com"
 authentication: "plain"
 enable_auto: true
+protocol: "http"
+password_expire_time: 2
