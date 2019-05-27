@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t "static_pages.home.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "check_email_announce"
+      redirect_to root_url
     else
       render :new
     end
@@ -42,6 +42,7 @@ class UsersController < ApplicationController
   end
 
   private
+
   def user_params
     params.require(:user).permit(:name, :email, :password,
       :password_confirmation)

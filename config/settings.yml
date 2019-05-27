@@ -4,4 +4,10 @@ password_min_length: 6
 checker: "1"
 avatar_size: 80
 avatar_small: 50
-checker: "1"
+checked: "1"
+default_from_email: "noreply@example.com"
+address: "smtp.gmail.com"
+port: 587
+domain: "gmail.com"
+authentication: "plain"
+enable_auto: true
