@@ -4,3 +4,4 @@ password_min_length: 6
 checker: "1"
 avatar_size: 80
 avatar_small: 50
+checker: "1"
