@@ -40,7 +40,6 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   config.action_mailer.delivery_method = :smtp
-
   config.action_mailer.default_url_options = { host: host }
   config.action_mailer.smtp_settings = {
     address: Settings.address,
