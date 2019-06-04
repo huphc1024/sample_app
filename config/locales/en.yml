@@ -93,8 +93,8 @@ en:
   log_out: "Log out"
   micropost_created: "Micropost created!"
   micropost:
-    one: "micropost"
-    other: "microposts"
+    one: "Micropost"
+    other: "Microposts"
   post: "Post"
   create_post: "Compose a new post..."
   micropost_feed: "Micropost feed"
@@ -102,6 +102,10 @@ en:
   micropost_detele_failed: "Micropost delete failed"
   less_than_5mb: "should be less than 5MB"
   alert_less_than_5mb: "Maximum file size is 5MB. Please choose a smaller file."
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   error:
     one: "%{count} error"
     other: "%{count} errors"
